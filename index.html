@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // -------------------- Keyword
+        // Get = to get value
+        // set = to set value
+        // super = parent parameter
+        // Extends = parent to child
+        // Constructor = object
+        // Class = User defined datatype
+
+
+
+
+        // ------------------------ Classes
+        // class person {
+        //     constructor (name,age){
+        //         this.name = name;
+        //         this.age = age;
+        //     }
+        // }
+        // const p1 = new person('Ram','RED',7000000);
+        // console.log(p1);
+
+
+
+        // class car {
+        //     constructor (name,color,price){
+        //         this.name = name;
+        //         this.color = color;
+        //         this.price = price;
+        //     }
+
+        //     // -------------------- Getter
+        //     get getName(){
+        //         return this.name;
+        //     }
+
+        //     // ------------------- setter
+        //     set setPrice(newPrice){
+        //         this.price = newPrice;
+        //     }
+        // }
+
+        // const car1 = new car('BMW','RED',7000000);
+        // console.log(car1);
+        
+        // // car1.setPrice = 5000000;
+        // // console.log(car1);
+
+        // console.log(car1.getName);
+
+
+
+        // --------------------- Extends
+        // This is use to inherit the parent property we use super keyword to inherit the parameter
+
+        // class racingCar extends car{
+        //     constructor(name,color,price,maxSpeed){
+        //         super(name,color,price);
+        //         this.maxSpeed = maxSpeed;
+        //     }
+        // }
+        // const car2 = new racingCar('Formula1','White',25000000,350)
+        // console.log(car2);
+
+
+        // -------------------------- Distructoring
+        // let college =  {
+        //     name:'saitm',
+        //     city:'Delhi'
+        // }
+
+        // let {name,city} = college;
+        // console.log(name);
+
+        // ----------------------- Spread operator
+        let arr1 =[1,2,3,4]
+        let arr2 =[5,6,7,8]
+        let arr3;
+
+        for(i=0;i<arr2.length;i++){
+            arr1.push(arr2[i]);
+            // arr2.pop()
+        }
+        console.log(arr1);
+        
+
+        // let arr3 = [...arr1,...arr2]
+        // console.log(arr3);
+
+    </script>
+</body>
+</html>
